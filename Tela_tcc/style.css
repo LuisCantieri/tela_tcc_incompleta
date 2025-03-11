@@ -73,7 +73,6 @@ background: red;
     width: 80%;
     margin-left: 135px;
     border-radius: 5px;
-    border: 3px solid black;
 }
 
 .quadrado{
@@ -159,27 +158,113 @@ button:hover {
 }
 
 footer {
-    background: red;
-    color: white;
-    padding: 15px;
-    margin-top: 20px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 20px;
-    background-color: darkred;
     width: 100%;
+    background-color: #E60012;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-.footer-info {
-    text-align: left;
-    align-items: baseline;
+.top-footer {
+    background-color: #EEEDED;
+    color: black;
+    padding: 2px;
 }
+
+.middle-footer {
+    background: none !important;
+    background-color: transparent !important;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: none !important;
+}
+
+
+.middle-footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.middle-footer nav a {
+    background: none !important;
+    background-color: transparent !important;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none !important;
+    box-shadow: none !important;
+    text-decoration: none;
+}
+
+.middle-footer * {
+    background: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.middle-footer nav a:hover {
+    text-decoration: underline;
+}
+
+
+.social-icons {
+    background-color: #FF0000;
+    padding: 15px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #B91D32;
+    padding: 30px ;
+    flex-wrap: wrap;
+}
+
+.bottom-footer .address,
+.bottom-footer .contact {
+    text-align: left;
+}
+
+.bottom-footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+.links {
+    background-color: #B91D32;
+    padding: 10px 0;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
 
 .copyright {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 10px;
+    background-color: #E60012;
+    padding: 10px 0;
+    font-size: 14px;
 }
